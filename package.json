@@ -1,0 +1,25 @@
+{
+  "name": "assignment8",
+  "version": "1.0.0",
+  "description": "Assignment 8 - Introduction to javascript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+	"test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab-dev.stackroute.in:2222/assignments/base-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "StackRoute",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.0.2",
+	"sinon": "^2.3.4"
+  }
+}
